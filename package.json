@@ -1,0 +1,23 @@
+{
+  "name": "hellowworldlambda",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "node",
+    "typescript",
+    "lambda"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build -- -w",
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "@types/node": "^12.7.2",
+    "lambda-local": "^1.6.3"
+  }
+}
